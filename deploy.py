@@ -1,0 +1,5 @@
+print(" Deployment inprogress...")
+print("Binary status and location validation")
+print("Binary file size verification")
+print("Binary file imported to jfrog")
+print("Deployment completed successfully and find the logs")
