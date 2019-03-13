@@ -5,12 +5,12 @@ pipeline {
       parallel {
         stage('Linux build') {
           steps {
-            sh 'py build.py'
+            C:\Users\sureshkumarg\AppData\Local\Programs\Python\Python37-32\python.exe C:\Users\sureshkumarg\.jenkins\workspace\test_git_clone\build.py
           }
         }
         stage('Solaris build') {
           steps {
-            sh 'py Solaris_build.py'
+            C:\Users\sureshkumarg\AppData\Local\Programs\Python\Python37-32\python.exe C:\Users\sureshkumarg\.jenkins\workspace\test_git_clone\Solaris_build.py
           }
         }
       }
@@ -19,19 +19,19 @@ pipeline {
       parallel {
         stage('Unit Test') {
           steps {
-            sh 'py Unit_test.py'
+            C:\Users\sureshkumarg\AppData\Local\Programs\Python\Python37-32\python.exe C:\Users\sureshkumarg\.jenkins\workspace\test_git_clone\Unit_test.py
           }
         }
         stage('Functional Test') {
           steps {
-            sh 'py Function_test.py'
+            C:\Users\sureshkumarg\AppData\Local\Programs\Python\Python37-32\python.exe C:\Users\sureshkumarg\.jenkins\workspace\test_git_clone\Function_test.py
           }
         }
       }
     }
     stage('Deploy') {
       steps {
-        sh 'py deploy.py'
+        C:\Users\sureshkumarg\AppData\Local\Programs\Python\Python37-32\python.exe C:\Users\sureshkumarg\.jenkins\workspace\test_git_clone\deploy.py
       }
     }
     stage('Publish mail') {
