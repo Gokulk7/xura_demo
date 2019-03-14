@@ -1,0 +1,3 @@
+@echo off 
+echo Build is running...
+echo Build completed and log will be stored in log path
