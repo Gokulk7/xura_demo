@@ -6,14 +6,14 @@ pipeline {
         git(url: 'https://github.com/Gokulk7/xura_demo.git', branch: 'master', credentialsId: 'Gokulk7')
       }
     }
-    stage('Code_validation') {
+    stage('Build') {
       parallel {
         stage('Code_validation') {
           steps {
             bat 'codevalidation.bat'
           }
         }
-        stage('Build') {
+        stage('Compile') {
           steps {
             bat 'build.bat'
           }
