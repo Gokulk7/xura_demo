@@ -1,0 +1,3 @@
+@echo off 
+echo Source Code Validation task is running...
+echo Source code validation completed and found 15 java files

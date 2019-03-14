@@ -1,0 +1,3 @@
+@echo off 
+echo deploy task is running...
+echo deploy test completed and found 1 binary copied and CAF file creation

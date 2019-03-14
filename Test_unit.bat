@@ -1,0 +1,3 @@
+@echo off 
+echo Unit test task is running...
+echo Unit test completed and found 8 passed out of 12 test cases

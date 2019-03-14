@@ -1,0 +1,3 @@
+@echo off 
+echo functional test task is running...
+echo functional test completed and found 3 passed out of 4 test cases
